@@ -25,7 +25,7 @@ After converting it only to contain two colours, the size changed to 25 524 by
 
 | K  | 2  |  4 | 8  | 16  | 32  | 64  | 128  | 256  |
 |---|---|---|---|---|---|---|---|---|
-|  Size | 25 524 bytes  | 52 090 bytes  | 148 847 bytes  | 209 680 bytes  |  360 498 bytes | 509 475 bytes  |  701 327 bytes |  900 328 bytes |
+|  Size(bytes) | 25 524  | 52 090 | 148 847  | 209 680  |  360 498 | 509 475  |  701 327 |  900 328 |
 |  Reduction | 97.46%  | 94.80%  | 85.13%  | 79.05%  |  64% | 49.12%  |  29.95% |  10.08% |
 
 
