@@ -1,9 +1,10 @@
 **Compression with K-mean clustering**
 
 Imagenes contains building-block known as pixels. A pixel is an entity that has three values; Red, Green and Blue. Each value of RGB ranges from 0-255 going from not containing any of the colours or containing maximum(255). In other words, a green, a white and a magenta pixel has the values in respective order; 
-Green = rgb(0, 255, 0) 
-White = rgb(255, 255, 255)
-Magenta = rgb(255, 0, 255)
+
+- Green = rgb(0, 255, 0) 
+- White = rgb(255, 255, 255)
+- Magenta = rgb(255, 0, 255)
 
 *The method*
 
@@ -22,3 +23,5 @@ Initially, the idea was to use Huffman-code to create an image, but as I found o
 
 As the example imagen called "king.png" in the folder "img/original" of the Norwegian King Harald V, the original imagen has the size of 1 001 305 bytes.
 After converting it only to contain two colours, the size changed to 25 524 bytes and reduced in size by 97.46 %
+
+![Kings](https://github.com/tartaruz/K_compress/blob/master/img/banner/output_2-4-8-16-32.png)
