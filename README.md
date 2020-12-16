@@ -1,10 +1,11 @@
 ### Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install needed library.
+Use  [pip](https://pip.pypa.io/en/stable/) to install needed libraries.
 
 ```bash
 pip install numpy matplotlib Pillow
 ```
+Python3+ is needed
 
 ### Usage
 
@@ -18,7 +19,7 @@ K_value: 2
 
 # **Compression with K-mean clustering**
 
-Imagenes contains building-block known as pixels. A pixel is an entity that has three values; **R**ed, **G**reen and **B**lue. Each value of **RGB** ranges from 0-255 going from not containing any of the colours or containing maximum(255). In other words, a green, a white and a magenta pixel has the values in respective order; 
+>Imagenes contains building-block known as pixels. A pixel is an entity that has three values; **R**ed, **G**reen and **B**lue. Each value of **RGB** ranges from 0-255 going from not containing any of the colours or containing maximum(255). In other words, a green, a white and a magenta pixel has the values in respective order; 
 
 - Green = rgb(0, 255, 0) 
 - White = rgb(255, 255, 255)
