@@ -1,10 +1,8 @@
 from sklearn.cluster import KMeans
-import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt
 from PIL import Image
 import random
-import huffman as hman
 class K_compress:
     def __init__(self, filename=None):
         self.filename = filename
@@ -57,7 +55,8 @@ class K_compress:
         self.img.save("img/compressed/"+newName+".png")
         print("Saved at img/compressed/"+newName+".png")
 
-for i in range(117,128):
-    print(i)
-    r = K_compress(filename = "king.png")
-    r.compress(cluster=i)
+
+filename = input("Filename: ")
+k_value = int(input("K_value: "))
+r = K_compress(filename = filename)
+r.compress(cluster=k_value)
